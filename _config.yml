@@ -4,21 +4,14 @@ url : "https://j1c.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : Jaewon Chung
   favicon : assets/favicon.png
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
     username : Jaewon Chung
-    description : Neuro - Scientist
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
+    description : {Neuro, Data} Scientist • Biomedical Engineering PhD Student at Johns Hopkins University
         
   # Icons
   icons :
