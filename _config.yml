@@ -7,12 +7,6 @@ theme_settings :
   title : Jaewon Chung
   favicon : assets/favicon.png
 
-  # Profile Settings
-  profile :
-    image : assets/img/smile.png
-    username : Jaewon Chung
-    description : "{Neuro, Data} Scientist • Biomedical Engineering PhD Student at Johns Hopkins University"
-
   # Icons
   icons :
     email: j1c@jhu.edu
