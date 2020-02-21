@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url : "https://j1c.github.io"
+url : "https://j1c.me"
 
 # Blog Settings
 theme_settings :
@@ -27,7 +27,7 @@ theme_settings :
     instagram:
 
   # Disqus
-  disqus_shortname :
+  disqus_shortname : j1c
 
 # Pagination
 paginate: 5
