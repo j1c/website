@@ -10,18 +10,18 @@
         <li class="btn-nav">Blog</li>
       </a>
       <li class="current">Tags</li>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
+      <a href="{{ site.url }}/projects">
+        <li class="btn-nav">Projects</li>
       </a>
       <!-- portfolio -->
-      {% when 'portfolio'%}
+      {% when 'projects'%}
       <a href="{{ site.url }}">
         <li class="btn-nav">Blog</li>
       </a>
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <li class="current">Portfolio</li>
+      <li class="current">Projects</li>
       {% else %}
       <!-- others -->
       <a href="{{ site.url }}">
@@ -30,8 +30,8 @@
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
+      <a href="{{ site.url }}/projects">
+        <li class="btn-nav">Projects</li>
       </a>
       {% endcase %}
     </ul>
