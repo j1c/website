@@ -13,6 +13,9 @@
       <a href="{{ site.url }}/projects">
         <li class="btn-nav">Projects</li>
       </a>
+      <a href="{{ site.url }}/about">
+        <li class="btn-nav">About Me</li>
+      </a>
       <!-- portfolio -->
       {% when 'projects'%}
       <a href="{{ site.url }}">
@@ -22,6 +25,21 @@
         <li class="btn-nav">Tags</li>
       </a>
       <li class="current">Projects</li>
+      <a href="{{ site.url }}/about">
+        <li class="btn-nav">About Me</li>
+      </a>
+      <!-- about -->
+      {% when 'about'%}
+      <a href="{{ site.url }}">
+        <li class="btn-nav">Blog</li>
+      </a>
+      <a href="{{ site.url }}/tags">
+        <li class="btn-nav">Tags</li>
+      </a>
+      <a href="{{ site.url }}/projects">
+        <li class="btn-nav">Projects</li>
+      </a>
+      <li class="current">About Me</li>
       {% else %}
       <!-- others -->
       <a href="{{ site.url }}">
