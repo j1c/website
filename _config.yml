@@ -11,10 +11,8 @@ theme_settings :
   profile :
     image : assets/img/smile.png
     username : Jaewon Chung
-    description : {Neuro, Data} Scientist • Biomedical Engineering PhD Student at Johns Hopkins University
-    experience :
-    skills : 
-        
+    description : "{Neuro, Data} Scientist • Biomedical Engineering PhD Student at Johns Hopkins University"
+
   # Icons
   icons :
     email: j1c@jhu.edu

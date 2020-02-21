@@ -28,10 +28,11 @@ layout: page
     <article class="exper col-12 col-md-6">
       <p class="title">EXPERIENCE</p>
       <ul class="exper-list">
-        {% for exp in  profile.experience %}
+        {% for _ in site.data.experiences %}
+        {% assign exp = _.experience %}
         <li class="meta">
           <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
-          <p class="description">{{ exp.experience }}</p>
+          <p class="description">{{ exp.name }}</p>
         </li>
         {% endfor %}
       </ul>
@@ -39,12 +40,13 @@ layout: page
     <article class="skills col-12 col-md-6">
       <p class="title">SKILLS</p>
       <ul class="skill-list">
-        {% for _ in profile.skills %}
+        {% for _ in site.data.skills %}
+        {% assign skill = _.skill %}
         <li class="skill">
-          <p class="name">{{ _.skill }}</p>
+          <p class="name">{{ skill.skill }}</p>
           <div class="progress">
-            <div class="progress-bar" style="width: {{ _.value }}%">
-              <div class="progress-value">{{ _.value }}%</div>
+            <div class="progress-bar" style="width: {{ skill.value }}%">
+              <div class="progress-value">{{ skill.value }}%</div>
             </div>
           </div>
         </li>
